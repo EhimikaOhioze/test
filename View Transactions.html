@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Prime trust.css">
+    <title>All Transactions | PrimeTrust Bank</title>
+
+</head>
+
+
+<body class="page">
+
+    <!-- HEADER -->
+
+    <header class="site-header">
+
+        <h1>PrimeTrust Bank</h1>
+
+        <nav class="main-nav">
+
+            <a href="Prime trust.html">Home</a>
+
+            <a href="Customer Profile.html">Profile</a>
+
+            <a href="Accounts.html">Accounts</a>
+
+            <a href="Transactions.html">Transactions</a>
+
+            <a href="Transfer.html">Transfer Money</a>
+
+            <a href="Support.html">Support</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="main-content">
+
+        <!-- PAGE INTRODUCTION -->
+
+        <section class="page-intro">
+
+            <h2>All Transactions</h2>
+
+            <p class="search-row">
+                View your complete PrimeTrust Bank transaction history.
+            </p>
+
+        </section>
+
+
+        <!-- ACCOUNT INFORMATION -->
+
+        <section class="content-section">
+
+            <h2>Account Information</h2>
+
+            <p>
+                <strong>Account Holder:</strong>
+                John Doe
+            </p>
+
+            <p>
+                <strong>Account Number:</strong>
+                0123456789
+            </p>
+
+            <p>
+                <strong>Account Type:</strong>
+                Savings Account
+            </p>
+
+            <p>
+                <strong>Available Balance:</strong>
+                ₦1,250,000.00
+            </p>
+
+        </section>
+
+
+        <!-- TRANSACTION SUMMARY -->
+
+        <section class="content-section">
+
+            <h2>Transaction Summary</h2>
+
+            <p>
+                <strong>Total Credits:</strong>
+                ₦700,000.00
+            </p>
+
+            <p>
+                <strong>Total Debits:</strong>
+                ₦247,500.00
+            </p>
+
+            <p>
+                <strong>Total Transactions:</strong>
+                10
+            </p>
+
+        </section>
+
+
+        <!-- TRANSACTION FILTERS -->
+
+        <section class="content-section">
+
+            <h2>Transaction Filters</h2>
+
+            <p>
+
+                <label for="transaction-type">
+                    Transaction Type:
+                </label>
+
+                <select
+                    id="transaction-type"
+                    name="transaction-type"
+                >
+
+                    <option value="all">
+                        All Transactions
+                    </option>
+
+                    <option value="credit">
+                        Credit
+                    </option>
+
+                    <option value="debit">
+                        Debit
+                    </option>
+
+                </select>
+
+            </p>
+
+
+            <p class="search-row">
+
+                <label for="transaction-status">
+                    Transaction Status:
+                </label>
+
+                <select
+                    id="transaction-status"
+                    name="transaction-status"
+                >
+
+                    <option value="all">
+                        All Statuses
+                    </option>
+
+                    <option value="completed">
+                        Completed
+                    </option>
+
+                    <option value="pending">
+                        Pending
+                    </option>
+
+                    <option value="failed">
+                        Failed
+                    </option>
+
+                </select>
+
+            </p>
+
+
+            <p class="search-row">
+
+                <label for="search">
+                    Search Transactions:
+                </label>
+
+                <input
+                    type="search"
+                    id="search"
+                    name="search"
+                    placeholder="Search by description"
+                >
+
+            </p>
+
+        </section>
+
+
+        <!-- ALL TRANSACTIONS -->
+
+        <section class="content-section">
+
+            <h2>Transaction History</h2>
+
+            <table class="transaction-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Date</th>
+
+                        <th>Transaction ID</th>
+
+                        <th>Description</th>
+
+                        <th>Type</th>
+
+                        <th>Amount</th>
+
+                        <th>Status</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+
+                    <!-- TRANSACTION 1 -->
+
+                    <tr>
+
+                        <td>
+                            25 September 2026
+                        </td>
+
+                        <td>
+                            PTB-TXN-001
+                        </td>
+
+                        <td>
+                            Salary Credit
+                        </td>
+
+                        <td>
+                            Credit
+                        </td>
+
+                        <td>
+                            ₦450,000.00
+                        </td>
+
+                        <td>
+                            Completed
+                        </td>
+
+                    </tr>
+
+
+                    <!-- TRANSACTION 2 -->
+
+                    <tr>
+
+                        <td>
+                            24 September 2026
+                        </td>
+
+                        <td>
+                            PTB-TXN-002
+                        </td>
+
+                        <td>
+                            Transfer to John Smith
+                        </td>
+
+                        <td>
+                            Debit
+                        </td>
+
+                        <td>
+                            ₦50,000.00
+                        </td>
+
+                        <td>
+                            Completed
+                        </td>
+
+                    </tr>
+
+
+                    <!-- TRANSACTION 3 -->
+
+                    <tr>
+
+                        <td>
+                            23 September 2026
+                        </td>
+
+                        <td>
+                            PTB-TXN-003
+                        </td>
+
+                        <td>
+                            Electricity Bill
+                        </td>
+
+                        <td>
+                            Debit
+                        </td>
+
+                        <td>
+                            ₦45,000.00
+                        </td>
+
+                        <td>
+                            Completed
+                        </td>
+
+                    </tr>
+
+
+                    <!-- TRANSACTION 4 -->
+
+                    <tr>
+
+                        <td>
+                            22 September 2026
+                        </td>
+
+                        <td>
+                            PTB-TXN-004
+                        </td>
+
+                        <td>
+                            Airtime Top-up
+                        </td>
+
+                        <td>
+                            Debit
+                        </td>
+
+                        <td>
+                            ₦2,500.00
+                        </td>
+
+                        <td>
+                            Completed
+                        </td>
+
+                    </tr>
+
+
+                    <!-- TRANSACTION 5 -->
+
+                    <tr>
+
+                        <td>
+                            20 September 2026
+                        </td>
+
+                        <td>
+                            PTB-TXN-005
+                        </td>
+
+                        <td>
+                            Transfer from Mary Johnson
+                        </td>
+
+                        <td>
+                            Credit
+                        </td>
+
+                        <td>
+                            ₦200,000.00
+                        </td>
+
+                        <td>
+                            Completed
+                        </td>
+
+                    </tr>
+
+
+                    <!-- TRANSACTION 6 -->
+
+                    <tr>
+
+                        <td>
+                            18 September 2026
+                        </td>
+
+                        <td>
+                            PTB-TXN-006
+                        </td>
+
+                        <td>
+                            Transfer to 0456789123
+                        </td>
+
+                        <td>
+                            Debit
+                        </td>
+
+                        <td>
+                            ₦100,000.00
+                        </td>
+
+                        <td>
+                            Pending
+                        </td>
+
+                    </tr>
+
+
+                    <!-- TRANSACTION 7 -->
+
+                    <tr>
+
+                        <td>
+                            15 September 2026
+                        </td>
+
+                        <td>
+                            PTB-TXN-007
+                        </td>
+
+                        <td>
+                            Cash Deposit
+                        </td>
+
+                        <td>
+                            Credit
+                        </td>
+
+                        <td>
+                            ₦50,000.00
+                        </td>
+
+                        <td>
+                            Completed
+                        </td>
+
+                    </tr>
+
+
+                    <!-- TRANSACTION 8 -->
+
+                    <tr>
+
+                        <td>
+                            12 September 2026
+                        </td>
+
+                        <td>
+                            PTB-TXN-008
+                        </td>
+
+                        <td>
+                            Internet Bill
+                        </td>
+
+                        <td>
+                            Debit
+                        </td>
+
+                        <td>
+                            ₦10,000.00
+                        </td>
+
+                        <td>
+                            Completed
+                        </td>
+
+                    </tr>
+
+
+                    <!-- TRANSACTION 9 -->
+
+                    <tr>
+
+                        <td>
+                            10 September 2026
+                        </td>
+
+                        <td>
+                            PTB-TXN-009
+                        </td>
+
+                        <td>
+                            Transfer from Sarah Williams
+                        </td>
+
+                        <td>
+                            Credit
+                        </td>
+
+                        <td>
+                            ₦50,000.00
+                        </td>
+
+                        <td>
+                            Completed
+                        </td>
+
+                    </tr>
+
+
+                    <!-- TRANSACTION 10 -->
+
+                    <tr>
+
+                        <td>
+                            08 September 2026
+                        </td>
+
+                        <td>
+                            PTB-TXN-010
+                        </td>
+
+                        <td>
+                            Mobile Data Purchase
+                        </td>
+
+                        <td>
+                            Debit
+                        </td>
+
+                        <td>
+                            ₦5,000.00
+                        </td>
+
+                        <td>
+                            Completed
+                        </td>
+
+                    </tr>
+
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <!-- TRANSACTION DETAILS -->
+
+        <section class="content-section">
+
+            <h2>Transaction Details</h2>
+
+            <p>
+                Select a transaction to view more information.
+            </p>
+
+            <p>
+                <strong>Transaction ID:</strong>
+                PTB-TXN-001
+            </p>
+
+            <p>
+                <strong>Date:</strong>
+                25 September 2026
+            </p>
+
+            <p>
+                <strong>Description:</strong>
+                Salary Credit
+            </p>
+
+            <p>
+                <strong>Type:</strong>
+                Credit
+            </p>
+
+            <p>
+                <strong>Amount:</strong>
+                ₦450,000.00
+            </p>
+
+            <p>
+                <strong>Status:</strong>
+                Completed
+            </p>
+
+        </section>
+
+
+        <!-- PAGINATION -->
+
+        <section class="content-section">
+
+            <h2>Pages</h2>
+
+            <nav class="pagination">
+
+                <a href="#">
+                    Previous
+                </a>
+
+                &nbsp;
+
+                <a href="#">
+                    1
+                </a>
+
+                &nbsp;
+
+                <a href="#">
+                    2
+                </a>
+
+                &nbsp;
+
+                <a href="#">
+                    3
+                </a>
+
+                &nbsp;
+
+                <a href="#">
+                    Next
+                </a>
+
+            </nav>
+
+        </section>
+
+
+        <!-- QUICK ACTIONS -->
+
+        <section class="content-section">
+
+            <h2>Quick Actions</h2>
+
+            <p>
+
+                <a class="button" href="Accounts.html">
+                    View Accounts
+                </a>
+
+            </p>
+
+
+            <p>
+
+                <a class="button button-secondary" href="Transfer.html">
+                    Transfer Money
+                </a>
+
+            </p>
+
+
+            <p>
+
+                <a class="button button-secondary" href="Customer Profile.html">
+                    Update Profile
+                </a>
+
+            </p>
+
+
+            <p>
+
+                <a class="button button-secondary" href="Support.html">
+                    Contact Support
+                </a>
+
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+        <p>
+            &copy; 2026 PrimeTrust Bank.
+            All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>

@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Prime trust.css">
+    <title>Transactions | PrimeTrust Bank</title>
+
+</head>
+
+
+<body class="page">
+
+    <!-- HEADER -->
+
+    <header class="site-header">
+
+        <h1>PrimeTrust Bank</h1>
+
+        <nav class="main-nav">
+
+            <a href="Prime trust.html">Home</a>
+
+            <a href="Customer Profile.html">Profile</a>
+
+            <a href="Accounts.html">Accounts</a>
+
+            <a href="Transactions.html">Transactions</a>
+
+            <a href="Registration.html">Register</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="main-content">
+
+        <!-- PAGE INTRODUCTION -->
+
+        <section class="page-intro">
+
+            <h2>Transactions</h2>
+
+            <p>
+                View your recent account transactions.
+            </p>
+
+        </section>
+
+
+        <!-- ACCOUNT SELECTOR -->
+
+        <section class="content-section">
+
+            <h2>Select Account</h2>
+
+            <div class="search-row">
+            <label for="account">Account:</label>
+
+            <select id="account" name="account">
+
+                <option value="savings">
+                    Savings Account - 0123456789
+                </option>
+
+                <option value="current">
+                    Current Account - 0987654321
+                </option>
+
+            </select>
+            </div>
+
+        </section>
+
+
+        <!-- TRANSACTION SUMMARY -->
+
+        <section class="content-section">
+
+            <h2>Transaction Summary</h2>
+
+            <p>
+                Available Balance:
+                <strong>₦1,250,000.00</strong>
+            </p>
+
+            <p>
+                Total Credits:
+                <strong>₦650,000.00</strong>
+            </p>
+
+            <p>
+                Total Debits:
+                <strong>₦197,500.00</strong>
+            </p>
+
+        </section>
+
+
+        <!-- TRANSACTION FILTERS -->
+
+        <section class="content-section">
+
+            <h2>Filter Transactions</h2>
+
+            <div class="search-row">
+            <label for="transaction-type">
+                Transaction Type:
+            </label>
+
+            <select id="transaction-type" name="transaction-type">
+
+                <option value="all">
+                    All Transactions
+                </option>
+
+                <option value="credit">
+                    Credit
+                </option>
+
+                <option value="debit">
+                    Debit
+                </option>
+
+            </select>
+            </div>
+
+
+            <br><br>
+
+
+            <div class="search-row">
+            <label for="transaction-status">
+                Status:
+            </label>
+
+            <select id="transaction-status" name="transaction-status">
+
+                <option value="all">
+                    All Statuses
+                </option>
+
+                <option value="completed">
+                    Completed
+                </option>
+
+                <option value="pending">
+                    Pending
+                </option>
+
+            </select>
+            </div>
+
+        </section>
+
+
+        <!-- TRANSACTION TABLE -->
+
+        <section class="content-section">
+
+            <h2>Recent Transactions</h2>
+
+            <table class="transaction-table">
+
+                <thead>
+
+                    <tr>
+
+                        <th>Date</th>
+
+                        <th>Description</th>
+
+                        <th>Type</th>
+
+                        <th>Amount</th>
+
+                        <th>Status</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody>
+
+                    <tr>
+
+                        <td>25 September 2026</td>
+
+                        <td>Salary Credit</td>
+
+                        <td>Credit</td>
+
+                        <td>₦450,000.00</td>
+
+                        <td>Completed</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>24 September 2026</td>
+
+                        <td>Transfer to John Smith</td>
+
+                        <td>Debit</td>
+
+                        <td>₦50,000.00</td>
+
+                        <td>Completed</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>23 September 2026</td>
+
+                        <td>Electricity Bill</td>
+
+                        <td>Debit</td>
+
+                        <td>₦45,000.00</td>
+
+                        <td>Completed</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>22 September 2026</td>
+
+                        <td>Airtime Top-up</td>
+
+                        <td>Debit</td>
+
+                        <td>₦2,500.00</td>
+
+                        <td>Completed</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>20 September 2026</td>
+
+                        <td>Transfer from Mary Johnson</td>
+
+                        <td>Credit</td>
+
+                        <td>₦200,000.00</td>
+
+                        <td>Completed</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>18 September 2026</td>
+
+                        <td>Transfer to 0456789123</td>
+
+                        <td>Debit</td>
+
+                        <td>₦100,000.00</td>
+
+                        <td>Pending</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>15 September 2026</td>
+
+                        <td>Deposit</td>
+
+                        <td>Credit</td>
+
+                        <td>₦50,000.00</td>
+
+                        <td>Completed</td>
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>12 September 2026</td>
+
+                        <td>Internet Bill</td>
+
+                        <td>Debit</td>
+
+                        <td>₦10,000.00</td>
+
+                        <td>Completed</td>
+
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+        </section>
+
+
+        <!-- TRANSACTION DETAILS -->
+
+        <section class="content-section">
+
+            <h2>Transaction Details</h2>
+
+            <p>
+                Select a transaction from the list to view
+                additional information.
+            </p>
+
+            <p>
+                Transaction ID:
+                PTB-TXN-20260925-001
+            </p>
+
+            <p>
+                Transaction Date:
+                25 September 2026
+            </p>
+
+            <p>
+                Description:
+                Salary Credit
+            </p>
+
+            <p>
+                Amount:
+                ₦450,000.00
+            </p>
+
+            <p>
+                Status:
+                Completed
+            </p>
+
+        </section>
+
+
+        <!-- PAGINATION -->
+
+        <section class="content-section">
+
+            <h2>Transaction Pages</h2>
+
+            <nav class="pagination">
+            <a href="#">Previous</a>
+
+            <a class="active" href="#">1</a>
+
+            <a href="#">2</a>
+
+            <a href="#">3</a>
+
+            <a href="#">Next</a>
+            </nav>
+
+        </section>
+
+
+        <!-- QUICK ACTIONS -->
+
+        <section class="content-section">
+
+            <h2>Quick Actions</h2>
+
+            <p>
+                <a class="button" href="Accounts.html">
+                    View Accounts
+                </a>
+            </p>
+
+            <p>
+                <a class="button button-secondary" href="Transfer.html">
+                    Transfer Money
+                </a>
+            </p>
+
+            <p>
+                <a class="button button-secondary" href="Customer Profile.html">
+                    View Profile
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+        <p>
+            &copy; 2026 PrimeTrust Bank. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>

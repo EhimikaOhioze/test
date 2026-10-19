@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="Prime trust.css">
+    <title>PrimeTrust Bank - Customer Registration</title>
+</head>
+
+<body class="page">
+
+    <!-- Header -->
+    <header class="site-header">
+
+        <h1>PrimeTrust Bank</h1>
+
+        <nav class="main-nav">
+            <a href="Prime trust.html">Home</a>
+            <a href="Customer Profile.html">Customer Portal</a>
+            <a href="Support.html">Support</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <section class="page-intro">
+            <h2>Create Your Account</h2>
+            <p>
+                Complete the form below to register for a PrimeTrust Bank account.
+            </p>
+        </section>
+
+        <!-- Registration Form -->
+        <form class="form-card" action="#" method="post">
+
+            <!-- Personal Information -->
+            <fieldset>
+
+                <legend>Personal Information</legend>
+
+
+                <!-- First Name -->
+                <div class="form-group">
+                    <label for="first-name">
+                        First Name:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="first-name"
+                        name="first_name"
+                        placeholder="Enter your first name"
+                        required
+                    >
+                </div>
+
+                <br>
+
+
+                <!-- Last Name -->
+                <div class="form-group">
+                    <label for="last-name">
+                        Last Name:
+                    </label>
+
+                    <input
+                        type="text"
+                        id="last-name"
+                        name="last_name"
+                        placeholder="Enter your last name"
+                        required
+                    >
+                </div>
+
+                <br>
+
+
+                <!-- Email -->
+                <div class="form-group">
+                    <label for="email">
+                        Email Address:
+                    </label>
+
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="example@email.com"
+                        required
+                    >
+                </div>
+
+                <br>
+
+
+                <!-- Phone -->
+                <div class="form-group">
+                    <label for="phone">
+                        Phone Number:
+                    </label>
+
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="08012345678"
+                        required
+                    >
+                </div>
+
+                <br>
+
+
+                <!-- Date of Birth -->
+                <div class="form-group">
+                    <label for="date-of-birth">
+                        Date of Birth:
+                    </label>
+
+                    <input
+                        type="date"
+                        id="date-of-birth"
+                        name="date_of_birth"
+                        required
+                    >
+                </div>
+
+                <br>
+
+
+                <!-- Gender -->
+                <div class="form-group">
+
+                    <p>Gender:</p>
+
+                    <input
+                        type="radio"
+                        id="male"
+                        name="gender"
+                        value="male"
+                    >
+
+                    <label for="male">
+                        Male
+                    </label>
+
+
+                    <input
+                        type="radio"
+                        id="female"
+                        name="gender"
+                        value="female"
+                    >
+
+                    <label for="female">
+                        Female
+                    </label>
+
+
+                    <input
+                        type="radio"
+                        id="other"
+                        name="gender"
+                        value="other"
+                    >
+
+                    <label for="other">
+                        Other
+                    </label>
+
+                </div>
+
+            </fieldset>
+
+
+            <br>
+
+
+            <!-- Contact Information -->
+            <fieldset>
+
+                <legend>Contact Information</legend>
+
+
+                <!-- Address -->
+                <div class="form-group">
+
+                    <label for="address">
+                        Residential Address:
+                    </label>
+
+                    <br>
+
+                    <textarea
+                        id="address"
+                        name="address"
+                        rows="4"
+                        cols="40"
+                        placeholder="Enter your residential address"
+                        required
+                    ></textarea>
+
+                </div>
+
+                <br>
+
+
+                <!-- State -->
+                <div class="form-group">
+
+                    <label for="state">
+                        State:
+                    </label>
+
+                    <select
+                        id="state"
+                        name="state"
+                        required
+                    >
+
+                        <option value="">
+                            Select your state
+                        </option>
+
+                        <option value="abuja">
+                            FCT Abuja
+                        </option>
+
+                        <option value="lagos">
+                            Lagos
+                        </option>
+
+                        <option value="rivers">
+                            Rivers
+                        </option>
+
+                        <option value="delta">
+                            Delta
+                        </option>
+
+                        <option value="edo">
+                            Edo
+                        </option>
+
+                        <option value="enugu">
+                            Enugu
+                        </option>
+
+                        <option value="kano">
+                            Kano
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </fieldset>
+
+
+            <br>
+
+
+            <!-- Account Information -->
+            <fieldset>
+
+                <legend>Account Information</legend>
+
+
+                <!-- Account Type -->
+                <div class="form-group">
+
+                    <label for="account-type">
+                        Account Type:
+                    </label>
+
+                    <select
+                        id="account-type"
+                        name="account_type"
+                        required
+                    >
+
+                        <option value="">
+                            Select account type
+                        </option>
+
+                        <option value="savings">
+                            Savings Account
+                        </option>
+
+                        <option value="current">
+                            Current Account
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <br>
+
+
+                <!-- Password -->
+                <div class="form-group">
+
+                    <label for="password">
+                        Password:
+                    </label>
+
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Create a password"
+                        required
+                    >
+
+                </div>
+
+                <br>
+
+
+                <!-- Confirm Password -->
+                <div class="form-group">
+
+                    <label for="confirm-password">
+                        Confirm Password:
+                    </label>
+
+                    <input
+                        type="password"
+                        id="confirm-password"
+                        name="confirm_password"
+                        placeholder="Confirm your password"
+                        required
+                    >
+
+                </div>
+
+            </fieldset>
+
+
+            <br>
+
+
+            <!-- Terms and Conditions -->
+            <fieldset>
+
+                <legend>Terms & Conditions</legend>
+
+                <input
+                    type="checkbox"
+                    id="terms"
+                    name="terms"
+                    required
+                >
+
+                <label for="terms">
+                    I agree to the PrimeTrust Bank terms and conditions.
+                </label>
+
+            </fieldset>
+
+
+            <br>
+
+
+            <!-- Form Buttons -->
+            <button class="button" type="submit">
+                Create Account
+            </button>
+
+            <button class="button button-secondary" type="reset">
+                Clear Form
+            </button>
+
+        </form>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+
+        <p>
+            &copy; 2026 PrimeTrust Bank. All Rights Reserved.
+        </p>
+
+        <a href="Privacy policy.html">Privacy Policy</a>
+        <a href="Terms&conditions.html">Terms & Conditions</a>
+        <a href="Support.html">Contact Support</a>
+
+    </footer>
+
+</body>
+
+</html>

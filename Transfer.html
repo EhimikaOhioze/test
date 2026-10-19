@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Prime trust.css">
+    <title>Transfer Money | PrimeTrust Bank</title>
+
+</head>
+
+
+<body class="page">
+
+    <!-- HEADER -->
+
+    <header class="site-header">
+
+        <h1>PrimeTrust Bank</h1>
+
+        <nav class="main-nav">
+
+            <a href="Prime trust.html">Home</a>
+
+            <a href="Customer Profile.html">Profile</a>
+
+            <a href="Accounts.html">Accounts</a>
+
+            <a href="Transactions.html">Transactions</a>
+
+            <a href="Transfer.html">Transfer Money</a>
+
+            <a href="Support.html">Support</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+
+    <main class="main-content">
+
+        <section class="page-intro">
+
+            <h2>Transfer Money</h2>
+
+            <p>
+                Send money securely from your PrimeTrust Bank account.
+            </p>
+
+        </section>
+
+
+        <!-- TRANSFER FORM -->
+
+        <section>
+
+            <h2>Transfer Details</h2>
+
+            <form class="form-card form-grid" action="#" method="post">
+
+                <p class="form-group">
+
+                    <label for="account">
+                        From Account:
+                    </label>
+
+                    <br>
+
+                    <select id="account" name="account" required>
+
+                        <option value="">
+                            Select an account
+                        </option>
+
+                        <option value="savings">
+                            Savings Account - 0123456789
+                        </option>
+
+                        <option value="current">
+                            Current Account - 0987654321
+                        </option>
+
+                    </select>
+
+                </p>
+
+
+                <p class="form-group">
+
+                    <label for="recipient-name">
+                        Recipient Name:
+                    </label>
+
+                    <br>
+
+                    <input
+                        type="text"
+                        id="recipient-name"
+                        name="recipient-name"
+                        placeholder="Enter recipient name"
+                        required
+                    >
+
+                </p>
+
+
+                <p class="form-group">
+
+                    <label for="account-number">
+                        Recipient Account Number:
+                    </label>
+
+                    <br>
+
+                    <input
+                        type="text"
+                        id="account-number"
+                        name="account-number"
+                        placeholder="Enter account number"
+                        required
+                    >
+
+                </p>
+
+
+                <p class="form-group">
+
+                    <label for="bank">
+                        Recipient Bank:
+                    </label>
+
+                    <br>
+
+                    <select id="bank" name="bank" required>
+
+                        <option value="">
+                            Select bank
+                        </option>
+
+                        <option value="primetrust">
+                            PrimeTrust Bank
+                        </option>
+
+                        <option value="bank-a">
+                            First Bank
+                        </option>
+
+                        <option value="bank-b">
+                            Access Bank
+                        </option>
+
+                        <option value="bank-c">
+                            GTBank
+                        </option>
+
+                        <option value="bank-d">
+                            Zenith Bank
+                        </option>
+
+                    </select>
+
+                </p>
+
+
+                <p class="form-group">
+
+                    <label for="amount">
+                        Transfer Amount:
+                    </label>
+
+                    <br>
+
+                    <input
+                        type="number"
+                        id="amount"
+                        name="amount"
+                        placeholder="Enter amount"
+                        min="1"
+                        required
+                    >
+
+                </p>
+
+
+                <p class="form-group">
+
+                    <label for="description">
+                        Description:
+                    </label>
+
+                    <br>
+
+                    <textarea
+                        id="description"
+                        name="description"
+                        rows="4"
+                        cols="40"
+                        placeholder="Enter transfer description"
+                    ></textarea>
+
+                </p>
+
+
+                <p class="form-group">
+
+                    <button class="button" type="submit">
+                        Transfer Money
+                    </button>
+
+                </p>
+
+            </form>
+
+        </section>
+
+
+        <!-- QUICK ACTIONS -->
+
+        <section class="content-section">
+
+            <h2>Quick Actions</h2>
+
+            <p>
+                <a class="button" href="Accounts.html">
+                    View Accounts
+                </a>
+            </p>
+
+            <p>
+                <a class="button button-secondary" href="Transactions.html">
+                    View Transactions
+                </a>
+            </p>
+
+            <p>
+                <a class="button button-secondary" href="Customer Profile.html">
+                    Update Profile
+                </a>
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+        <p>
+            &copy; 2026 PrimeTrust Bank. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+</body>
+
+</html>
